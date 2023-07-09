@@ -192,7 +192,7 @@ h4{
     right: 6px;
 }
 
-.about{
+.about , .skills{
     width: 100%;
     padding: 100px 0px;
     background-color: #191919;
@@ -255,13 +255,27 @@ button:hover{
     border: 2px solid orange;
 }
 
-.service{
+.qualifications{
     background-color: #101010;
     width: 100%;
     padding: 100px 0px;
 }
 
 .title{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.skills{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+
+.titles{
     color: white;
     font-size: 75px;
     width: 1130px;
@@ -399,15 +413,20 @@ footer p:nth-child(2){
     align-items: center;
     justify-content: center;
     background: orange;
-    border-radius: 50%;
+    border-radius: 50px;
     margin: 22px 10px;
     color: white;
     text-decoration: none;
     font-size: 20px;
+    box-shadow: 1px 4px 2px 2px #dcdde1;
+}
+
+.social a i{
+    transition: all 0.3s linear;
 }
 
 .social a:hover{
-    transform: scale(1,3);
+    transform: scale(1.4);
     transition: .3s;
 }
 
@@ -420,4 +439,51 @@ footer p:nth-child(2){
 
 h2{
     color: white;
+}
+
+.skills{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skills .skills-content{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skills .skills-content .column{
+    width: calc(50% - 30px);
+}
+
+.skills .skills-content .left .text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.skills .skills-content .right .bars{
+    margin-bottom: 15px;
+}
+
+.skills .skills-content .right .info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skills .skills-content .right span{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.skills .skills-content .right .line{
+    height: 5px;
+    width: 100%;
+    background: lightgrey;
 }
