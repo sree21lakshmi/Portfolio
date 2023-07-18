@@ -491,6 +491,8 @@ h2 {
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 20px;
+  margin-left: -864px;
+  margin-right: -854px;
 }
 
 .skills > div {
@@ -498,6 +500,7 @@ h2 {
   align-items: center;
   gap: 26px;
   padding: 10px 60px;
+  justify-content: center;
 }
 
 .skills .text {
@@ -505,6 +508,11 @@ h2 {
   color: #fff;
   text-align: justify;
   font-size: 18px;
+  margin-top: -328px;
+}
+
+.skills .text1{
+
 }
 
 .skills__progress {
@@ -534,6 +542,45 @@ h2 {
   height: 100%;
   border-radius: 10px;
   background-color: orange;
+}
+
+
+
+/****************/
+
+.skills__progress1 {
+  flex-basis: 50%;
+  margin-left: -563px;
+}
+
+.skills__progress1 ul {
+  list-style-type: none;
+  width: 100%;
+}
+
+.skills__progress1 > ul h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.skills__progress1 > ul .progress1 {
+  width: 100%;
+  height: 16px;
+  background: gray;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress1 > div {
+  height: 100%;
+  border-radius: 10px;
+  background-color: orange;
+}
+
+
+.text1{
+
 }
 
 /*Lets Talk Session*/
@@ -599,14 +646,27 @@ form .button:hover{
 
 .contact-left{
   flex-basis: 35%;
+  
+  position: relative;
+  float: left;
+  width: 50%;
+  height: 100%;
+  margin-left: 0px;
+    margin-top: 98px;
 }
 
 .contact-right{
   flex-basis: 60%;
+  position: relative;
+  float: right;
+  width: 50%;
+  height: 100%;
 }
 
 .contact-left p{
   margin-top: 30px;
+  margin-left: -190px;
+  
 }
 
 .contact-left p i{
@@ -617,13 +677,14 @@ form .button:hover{
 
 .social-icons{
   margin-top: 30px;
+  margin-left: -221px;
 }
 
 .social-icons a{
   text-decoration: none;
   font-size: 30px;
   margin-right: 15px;
-  color: #abababa;
+  color: #ababab;
   display: inline-block;
 }
 
@@ -635,6 +696,7 @@ form .button:hover{
 .btn btn2{
   display: inline-block;
   color: orange;
+  
 }
 
 .contact-right form{
@@ -645,7 +707,7 @@ form input, form textarea{
   width: 100%;
   border: 0;
   outline: none;
-  background: #262626;
+  background: black;
   padding: 15px;
   margin: 15px 0;
   color: #fff;
@@ -656,6 +718,7 @@ form input, form textarea{
 form btn2{
   padding: 14px;
   font-size: 18px;
+  margin-left: 413px;
 
 }
 
@@ -666,6 +729,7 @@ form btn2{
   background: #262626;
   font-weight: 300;
   margin-top: 20px;
+  margin-left: -186px;
 }
 
 .copyright i{
@@ -722,6 +786,10 @@ body1{
   margin-left: auto;
   background-color: white;
   color: black;
+  width: fit-content;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  padding: 10px;
 }
 
 .footer1 form{
